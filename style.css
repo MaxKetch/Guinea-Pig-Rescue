@@ -1,0 +1,101 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;}
+
+    /*containers*/
+.container {
+    margin: 0 auto;
+    max-width: 900px; 
+    padding: 0 10px;
+  }
+  
+  .container2 {
+      margin: 0 auto;
+      max-width: 1400px; 
+      padding: 0 10px;
+    }
+  
+    /*header*/
+  .header {
+    background: url(image/scott-webb-ttCFWHrmWH4-unsplash.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 700px;
+    text-align: center; 
+    border: 5px solid rgb(0, 0, 0);
+
+  }
+  #logo{
+      position:relative;
+      bottom:75px;
+  }
+  #logotext{
+      position:relative;
+      top:220px;
+      font-size:55px;
+      color:white;
+      -webkit-text-stroke: 3px rgb(0, 0, 0);
+    text-shadow: 5px 5px #000000;
+  }
+  #logotextspan{
+    -webkit-text-stroke: 3px rgb(255, 0, 0);
+    text-shadow: 5px 5px #ff0000;
+  }
+  /*body*/
+  #bodyimage1{
+    border-radius:100%;
+      z-index: -1;
+position:relative;
+left:250px;
+top:-60px;
+}
+#bodytext1{
+}
+#bodyimage2{
+  border-radius:100%;
+    z-index: -1;
+position:relative;
+left:250px;
+top:00px;
+}
+#bodyheader{
+    padding:0;
+    position: relative;
+    top:400px;
+    left:250px;
+}
+#bodyheader2{
+  padding:0;
+  position: relative;
+  top:00px;
+  left:250px;
+}
+
+/*blobs*/
+
+#blob1{
+    z-index: -3;
+    position: absolute;
+    top:-450px;
+    left:-600px;
+}
+
+#blob2{
+    z-index: -3;
+    position: absolute;
+    top:350px;
+    left:500px;
+}
+
+#blob3{
+  z-index: -3;
+  position: absolute;
+  top:850px;
+  left:-1100px;
+}
